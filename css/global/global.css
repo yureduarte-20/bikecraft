@@ -1,0 +1,25 @@
+:root {
+    --container-width:1200px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins',Arial, Helvetica,sans-serif;
+}
+h1, ul {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
