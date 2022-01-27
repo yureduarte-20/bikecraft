@@ -6,10 +6,7 @@
     display: grid;
     gap: 0 20px;
     grid-template-columns: 1fr 1fr;
-    max-width: var(--container-width);
-    margin: 0 auto;
-    padding:0 20px;
-    box-sizing: border-box;
+
 }
 .introducao-conteudo {
     align-self: end;

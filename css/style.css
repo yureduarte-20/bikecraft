@@ -1,6 +1,12 @@
 @import './global/global.css';
 @import './utils/typography.css';
 @import './utils/cores.css';
-@import './global/header.css';
-@import './global/introducao.css';
 @import './utils/components.css';
+@import './global/header.css';
+@import './home/introducao.css';
+
+/* Bicicletas lista */
+@import './bicicletas/bicicletas-lista.css';
+
+/* Tecnologias */ 
+@import './home/tecnologias.css';
