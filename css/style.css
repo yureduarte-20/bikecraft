@@ -2,11 +2,19 @@
 @import './utils/typography.css';
 @import './utils/cores.css';
 @import './utils/components.css';
-@import './global/header.css';
-@import './home/introducao.css';
 
+
+@import './global/header.css';
+@import './global/footer.css';
+/* Introdução */
+@import './home/introducao.css';
 /* Bicicletas lista */
 @import './bicicletas/bicicletas-lista.css';
 
 /* Tecnologias */ 
 @import './home/tecnologias.css';
+
+@import './home/parceiros.css';
+
+@import './home/depoimento.css';
+@import './seguros/seguros.css';

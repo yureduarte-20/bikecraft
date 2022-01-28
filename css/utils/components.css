@@ -18,8 +18,27 @@
     display: inline-block;
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
     font-family: "Poppins", sans-serif;
+    max-width: max-content;
+}
+
+.botao-secundario {
+    color: var(--cor-0);
+    background-color: var(--cor-8);
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    font-weight: bold;
+    font-size:1.25rem;
+    line-height: 24px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    max-width: max-content;
+    display: inline-block;
 }
 
 .botao:hover {
     background: linear-gradient( 180deg, var(--cor-p2) 0%, var(--cor-p4) 100% );
+}
+.botao-secundario:hover {
+    background-color: var(--cor-5);
 }
