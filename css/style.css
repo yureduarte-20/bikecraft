@@ -8,16 +8,23 @@
 @import './global/footer.css';
 /* Introdução */
 @import './home/introducao.css';
+@import './home/tecnologias.css';
+@import './home/parceiros.css';
+@import './home/depoimento.css';
+
 /* Bicicletas lista */
 @import './bicicletas/bicicletas-lista.css';
 
-/* Tecnologias */ 
-@import './home/tecnologias.css';
-
-@import './home/parceiros.css';
-
-@import './home/depoimento.css';
-@import './seguros/seguros.css';
-
+/* Termos */
 @import './termos/termos.css';
+
+/* Bicicletas */
 @import './bicicletas/bicicletas.css';
+
+/* seguros */
+@import './seguros/seguros.css';
+@import './seguros/vantagens.css';
+@import './seguros/perguntas.css';
+
+/* Bicicleta - Nimbus */
+@import './bicicleta/bicicleta-nimbus.css';
