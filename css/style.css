@@ -2,7 +2,7 @@
 @import './utils/typography.css';
 @import './utils/cores.css';
 @import './utils/components.css';
-
+@import './utils/formulario.css';
 
 @import './global/header.css';
 @import './global/footer.css';
@@ -28,3 +28,7 @@
 
 /* Bicicleta - Nimbus */
 @import './bicicleta/bicicleta-nimbus.css';
+
+/* Contatos */
+@import './contatos/contatos.css';
+@import './contatos/lojas.css';
