@@ -32,3 +32,7 @@
 /* Contatos */
 @import './contatos/contatos.css';
 @import './contatos/lojas.css';
+
+
+/* Orcamento */
+@import './orcamento/orcamento.css';
