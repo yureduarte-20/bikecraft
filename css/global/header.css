@@ -27,13 +27,14 @@ nav .links {
     content: "";
     display: block;
     position: absolute;
-    width: 0;
+    width: 0px;
     height: 2px;
     background-color: var(--cor-0);
     margin-top: 4px;
     transition: 0.3s;
 }
-.header .links a:hover::after {
+.header .links a:hover::after,
+.header .links a.ativo::after {
     width: 100%;
 }
 @media  ( max-width: 800px ) {
