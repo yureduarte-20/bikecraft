@@ -21,15 +21,28 @@ buttonAnswers.forEach( answer => {
       console.log(res)
         
     })
-} )
+} );
 
 const imagesContainer = document.querySelector('.bicicleta-img');
 const images = document.querySelectorAll('.bicicleta-img img');
-console.log(images)
 images.forEach( image => {
     image.addEventListener('click', (ev) => {
         if (window.innerWidth <= 920) return;
         imagesContainer.prepend(ev.currentTarget)
     })
-})
+});
 
+const a = new SimpleAnime();
+window.addEventListener('scroll', e => {
+    let bicicletas = document.querySelector('.bicicletas-lista ul');
+    let offsetTop = bicicletas.offsetTop + 500;
+    console.log(offsetTop);
+    if( (!bicicletas.hasAttribute('animated')) && offsetTop >= e.currentTarget.scrollY){
+        bicicletas.classList.add('fadeInDown')
+        bicicletas.setAttribute('animated', "");
+        bicicletas.style = "opacity:0; transform: translate3d(0, -20px, 0);"
+        setTimeout( () => { 
+            bicicletas.style = "opacity:1; transition: transform 0.8s, opacity 0.8s; transform: none;" 
+        }, 600 )
+    }
+})

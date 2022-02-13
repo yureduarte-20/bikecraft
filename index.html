@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+        <link href="./css/animacoes/animacoes.css" rel="stylesheet">
     <title>Bikecraft</title>
 </head>
 
@@ -35,14 +36,14 @@
     <main class="introducao-bg cor-0">
         <div class="introducao cor-1 container">
             <div class="introducao-conteudo">
-                <h1 class="font-1-xxl">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-                <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para
+                <h1 data-anime="200" class="font-1-xxl fadeInLeft">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p data-anime="400" class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para
                     você. Explore o mundo na
                     sua velocidade com a Bikcraft.</p>
-                <a class="botao font" href="#">escolha a sua</a>
+                <a data-anime="800" class="botao font" href="#">escolha a sua</a>
             </div>
             <div>
-                <img src="img/fotos/introducao.jpg">
+                <img data-anime="400" class="fadeInUp" src="img/fotos/introducao.jpg">
             </div>
         </div>
     </main>
@@ -194,6 +195,7 @@
             <p class="font-2-m cor-6 footer-copy">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/index.js"></script>
 </body>
 
